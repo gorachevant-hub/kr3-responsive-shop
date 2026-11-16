@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оформление заявки</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">ShopProject</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Заявка</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main section">
+    <h1>Оформление заявки</h1>
+    
+    <form class="order-form">
+      <div class="order-form__group">
+        <label for="name">Имя</label>
+        <input type="text" id="name" required>
+      </div>
+      
+      <div class="order-form__group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+      </div>
+      
+      <div class="order-form__group order-form__group--wide">
+        <label for="comment">Комментарий</label>
+        <textarea id="comment" rows="4"></textarea>
+      </div>
+      
+      <div class="order-form__group order-form__group--wide">
+        <button type="submit" class="button">Отправить</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Учебный проект. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>
