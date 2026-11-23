@@ -1,3 +1,4 @@
+
 // Получаем модальное окно по id.
 const orderDialog = document.getElementById('order-dialog');
 
@@ -28,6 +29,7 @@ orderButtons.forEach((button) => {
 closeDialogButton.addEventListener('click', () => {
   orderDialog.close();
 });
+
 // Получаем форму заявки.
 const orderForm = document.getElementById('order-form');
 
